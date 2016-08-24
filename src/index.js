@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import SearchBar from './src/components/searchBar.js'
-import ArtistProfile from './src/components/artistProfile.js'
-import ArtistTracks from './src/components/artistTracks.js'
+import './styles/app.scss'
+import SearchBar from './components/searchBar.js'
+import ArtistProfile from './components/artistProfile.js'
+import ArtistTracks from './components/artistTracks.js'
 
 class App extends Component {
   constructor (props) {
