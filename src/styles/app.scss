@@ -1,9 +1,14 @@
-
+/*
 html, body {
     height: 100%;
     background-color: #0b0f4e;
-}
+}*/
 
+$header-img: image-url('assets/background3.jpg', false, false)
+
+html {
+  background: $header-img;
+}
 /*@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
     background: {
         image: url($imgpath);
